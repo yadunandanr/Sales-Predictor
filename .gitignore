@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Environment & secrets
+.env
+.env.*
+
+# Large datasets (do not push raw/processed CSVs to GitHub)
+data/raw/*.csv
+data/raw/*.parquet
+data/raw/*.zip
+data/processed/*.csv
+data/processed/*.parquet
+
+# Jupyter checkpoints / pytest
+.ipynb_checkpoints/
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
